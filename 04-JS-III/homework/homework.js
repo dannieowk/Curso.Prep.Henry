@@ -293,10 +293,6 @@ for (let y = 0; y < 10; y++) {
   } return(array);
 }
  
-
-
-
-
 // No modificar nada debajo de esta línea
 // --------------------------------
 
