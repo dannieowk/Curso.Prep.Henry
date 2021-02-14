@@ -1,0 +1,33 @@
+    h1,h2,h3,h4,h5,h6{
+        color: white;
+    }
+
+    img{
+        width: 400px;
+        border-style: solid;
+        border-color: black;
+    }
+    
+    #divclass{
+        color: white;
+        align-content: center;
+        text-align: center;
+    }
+
+    #thirdDiv{
+        color: turquoise;
+        border-color: seagreen;
+        border-width: 20px;
+        display: flex;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+
+    #spanId{
+        font-size: 18px;
+        margin: 5px;
+        text-align: center;
+    }
+
