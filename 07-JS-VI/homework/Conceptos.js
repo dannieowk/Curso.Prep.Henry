@@ -1,0 +1,1 @@
+//Funciones Callback Es un elemento que nos permite pasar como un argumento de una funcion otra funcion.
