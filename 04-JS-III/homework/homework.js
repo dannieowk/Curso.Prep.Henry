@@ -201,15 +201,10 @@ function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
-  for (let i = 0; i < arreglo.length; i++) {
-    if (arreglo[i]== arreglo[i+1]) {
-      return true;
-    } else {
-      return false;
-    }
-    
-  }
-} 
+  var contador = 0;
+  for (let i = 0; i <= arreglo.length; i++) if (arreglo[i]==arreglo[i+1]) contador = contador +1;
+  if (contador == arreglo.length) return true; return false;
+}
 
 
 function mesesDelAño(array) {
